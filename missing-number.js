@@ -1,5 +1,5 @@
 // missing in sequence only 1 value
-// formulat (n+1) * (n+2) / 2 - total value
+// formula (n+1) * (n+2) / 2 - total value
 const a = [1,3,4,2,6]; //1 missing
 const b = a.length;
 
