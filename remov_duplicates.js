@@ -26,3 +26,14 @@ function uniqueArray(array) {
 
   return unique;
 }
+// second app:
+
+const arr = [1,2,3,2,1,3,5,4,2];
+var obj = arr.reduce(function (x, y){
+  if(!x[y]) {
+    x[y] = 0;
+  }
+  x[y]++;
+  return x;
+},{})
+console.log(Object.keys(obj))
