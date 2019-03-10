@@ -27,3 +27,16 @@ output;
 // }
 
 //output;
+
+
+//unian Value:
+const a = [1,2,3,4];
+const b = [2,4,5,6];
+
+var c = a.filter(function(x) { 
+  return b.indexOf(x) !== -1; 
+});
+console.log(c);  // [ 2, 4 ]
+
+
+
