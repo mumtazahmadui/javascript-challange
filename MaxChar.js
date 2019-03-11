@@ -13,6 +13,8 @@ for(let i of arr) {
     obj[i] = 0
   }
   obj[i]++;
+  
+  //obj[i] =  obj[i] + 1 || 1;
 }
 
 let char='';
