@@ -1,26 +1,14 @@
-/**
- * Number Algorithms 
- */
+var str = 'Wel@come !';
+// var rev = str.replace(/[a-z]+/gi, function(s){
+//     return s.split('').reverse().join('')
+//   });
 
- /**
-  * REVERSE STRING 
-  * Given an integer return the reverse of the given number 
-  * Input => 321
-  * Output => 123 
-  * Input => -452 
-  * Output => -254
-  * Make sure the number doesn't overflow if it does return 0 
-  * Pseudocode 
-  *  create a variable to hold the reverse number 
-  *  convert the input to string 
-  *  iterate over the string input starting at position 1 
-  *    for each number add them to the front of the variable holding the number
-  *  if the input string first character is equal to - 
-  *    add the element to the front 
-  *  else push the element 
-  *  join the variable holding the new number and convert back to number 
-  *  return the variable  
-  */
+// console.log(rev); 
+let out = [...str].reduce((accum, current) => current + accum);
+console.log(out)
+
+
+//another appr.: 
 
   const reverseString = (number) => {
     let newNumber = []; 
